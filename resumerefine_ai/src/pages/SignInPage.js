@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SignInPage.css';
 
+// Unsplash tech security background (subtle, dark, professional, free, no attribution):
+// https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1600&q=80
+// Alt keyword: modern-digital-city-abstract
+// License: Unsplash free to use, no attribution required
 // PUBLIC_INTERFACE
 const SignInPage = () => {
   const navigate = useNavigate();
