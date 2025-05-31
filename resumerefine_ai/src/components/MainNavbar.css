@@ -1,0 +1,32 @@
+.rr-navbar {
+  background: #fff;
+  border-bottom: 1px solid var(--border-color, #e3e3ef);
+  box-shadow: 0 2px 12px rgba(26,35,126,0.03);
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  min-height: 65px;
+}
+
+.rr-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary-color, #1A237E);
+  letter-spacing: -1px;
+  user-select: none;
+}
+.rr-logo-symbol {
+  color: var(--accent-color, #FF6F00);
+  font-weight: 900;
+  margin-right: 6px;
+}
+
+@media (max-width: 700px) {
+  .rr-navbar .container {
+    padding: 0 10px;
+  }
+  .rr-logo {
+    font-size: 1.12rem;
+  }
+}
