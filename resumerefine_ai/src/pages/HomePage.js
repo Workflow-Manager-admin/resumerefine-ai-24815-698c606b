@@ -23,6 +23,16 @@ const HomePage = () => {
         alignItems: 'center'
       }}
     >
+      {/* Top-right Sign-In button for Home Page only */}
+      <button
+        className="btn btn-large rr-signin-top"
+        onClick={() => navigate('/signin')}
+        aria-label="Sign In"
+        type="button"
+      >
+        Sign In
+      </button>
+
       <div className="container rr-home-content">
         <div
           style={{
@@ -78,20 +88,6 @@ const HomePage = () => {
           >
             Refine your resume for your dream job with instant, actionable suggestions tailored to your target role.
           </div>
-          <button
-            className="btn btn-large"
-            style={{
-              backgroundColor: 'var(--accent-color, #FF6F00)',
-              color: 'white',
-              fontWeight: 600,
-              fontSize: '1.1rem',
-              boxShadow: "0 2px 14px #FF6F0035",
-              border: "none"
-            }}
-            onClick={() => navigate('/signin')}
-          >
-            Sign In to Get Started
-          </button>
         </div>
       </div>
     </section>
