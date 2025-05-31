@@ -51,15 +51,7 @@ const ResumeToolPage = () => {
   };
 
   return (
-    <section style={{
-      minHeight: '85vh',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'flex-start',
-      background: 'linear-gradient(120deg, #F5F5F5 80%, #FF6F0014 130%)',
-      paddingTop: 100
-    }}>
+    <section className="rr-resume-bg">
       <div className="container" style={{ maxWidth: 520 }}>
         <form
           onSubmit={handleSubmit}
@@ -68,7 +60,8 @@ const ResumeToolPage = () => {
             borderRadius: 12,
             boxShadow: '0 6px 36px rgba(26,35,126,0.09)',
             padding: "36px 26px 30px",
-            marginBottom: 28
+            marginBottom: 28,
+            marginTop: 108
           }}
         >
           <h3 style={{ color: 'var(--primary-color, #1A237E)', marginBottom: 18, fontWeight: 700 }}>Resume Analysis</h3>
