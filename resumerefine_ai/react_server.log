@@ -136,3 +136,61 @@ ERROR in ./src/pages/HomePage.js 7:0-24
 Module not found: Error: Can't resolve './HomePage.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
 
 webpack compiled with 7 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src'
+ERROR in ./src/App.js 6:0-97
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src'
+
+ERROR in ./src/App.js 10:0-52
+Module not found: Error: Can't resolve './pages/ResumeToolPage' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src'
+
+ERROR in ./src/components/MainNavbar.js 6:0-60
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/components'
+
+ERROR in ./src/components/MainNavbar.js 7:0-26
+Module not found: Error: Can't resolve './MainNavbar.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/components'
+
+ERROR in ./src/pages/HomePage.js 6:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+ERROR in ./src/pages/HomePage.js 7:0-24
+Module not found: Error: Can't resolve './HomePage.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+ERROR in ./src/pages/SignInPage.js 6:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+ERROR in ./src/pages/SignInPage.js 7:0-26
+Module not found: Error: Can't resolve './SignInPage.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+webpack compiled with 8 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src'
+ERROR in ./src/App.js 6:0-97
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src'
+
+ERROR in ./src/App.js 10:0-52
+Module not found: Error: Can't resolve './pages/ResumeToolPage' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src'
+
+ERROR in ./src/components/MainNavbar.js 6:0-60
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/components'
+
+ERROR in ./src/components/MainNavbar.js 7:0-26
+Module not found: Error: Can't resolve './MainNavbar.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/components'
+
+ERROR in ./src/pages/HomePage.js 6:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+ERROR in ./src/pages/HomePage.js 7:0-24
+Module not found: Error: Can't resolve './HomePage.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+ERROR in ./src/pages/SignInPage.js 6:0-47
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+ERROR in ./src/pages/SignInPage.js 7:0-26
+Module not found: Error: Can't resolve './SignInPage.css' in '/home/kavia/workspace/code-generation/resumerefine-ai-24815-698c606b/resumerefine_ai/src/pages'
+
+webpack compiled with 8 errors
