@@ -28,29 +28,11 @@ const SignInPage = () => {
   };
 
   return (
-    <section
-      style={{
-        minHeight: '80vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        background: 'linear-gradient(120deg, #F5F5F5 76%, #FF6F0015 120%)'
-      }}
-    >
+    <section className="rr-signin-bg">
       <div className="container" style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: 96 }}>
         <form
           onSubmit={handleSubmit}
-          style={{
-            background: "#fff",
-            boxShadow: "0 4px 32px rgba(26,35,126,0.09)",
-            padding: "44px 32px 36px",
-            borderRadius: 13,
-            minWidth: 300,
-            maxWidth: 360,
-            width: "100%",
-            margin: "24px auto"
-          }}
+          className="rr-signin-form"
         >
           <div className="rr-logo" style={{ fontSize: "1.4rem", fontWeight: 800, marginBottom: 15, color: "var(--primary-color, #1A237E)"}}>
             <span style={{ color: "var(--accent-color, #FF6F00)" }}>rrAI</span> ResumeRefine
