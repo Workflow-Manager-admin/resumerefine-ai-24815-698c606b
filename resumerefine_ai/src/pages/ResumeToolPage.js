@@ -141,14 +141,8 @@ const ResumeToolPage = () => {
           )}
         </form>
         {aiResults && (
-          <section style={{
-            background: '#fff',
-            borderRadius: 10,
-            boxShadow: '0 1px 8px rgba(26,35,126,0.07)',
-            padding: '23px 18px 8px',
-            marginBottom: 32
-          }}>
-            <h4 style={{ color: "var(--primary-color, #1A237E)", marginTop: 0, fontWeight: 600, letterSpacing: "-0.5px" }}>AI Suggestions</h4>
+          <section className="rr-resume-card-results">
+            <h4 style={{ color: "var(--primary-color, #1A237E)", marginTop: 0, fontWeight: 700, letterSpacing: "-0.5px", fontSize: "1.18rem" }}>AI Suggestions</h4>
             <div style={{ marginBottom: 16 }}>
               <span style={{ fontWeight: 700, color: "#43A047" }}>Highlights:</span>
               <ul style={{ margin: "8px 0 14px 20px", color: "#23285A" }}>
