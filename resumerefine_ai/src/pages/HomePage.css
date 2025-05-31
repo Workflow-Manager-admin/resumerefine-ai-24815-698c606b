@@ -11,14 +11,54 @@
   justify-content: center;
 }
 
-.rr-home-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
+/* Top-right Sign-In button styles for home page */
+.rr-signin-top {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  z-index: 200;
+  background-color: var(--accent-color, #FF6F00);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  padding: 12px 25px;
+  border-radius: 100px;
+  box-shadow: 0 2px 17px #ff6f0040;
+  border: none;
+  transition: background 0.16s, box-shadow 0.2s, color 0.2s;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  display: inline-block;
+}
+
+.rr-signin-top:focus, .rr-signin-top:active {
+  box-shadow: 0 4px 34px #ff6f0088, 0 0 0 2px var(--primary-color, #1A237E);
+  background-color: #ff8b4d;
+}
+
+.rr-signin-top:hover {
+  background-color: #ff8b4d;
+  color: #fff;
+}
+
+/* Responsive adjustments for top button */
+@media (max-width: 780px) {
+  .rr-signin-top {
+    top: 16px;
+    right: 14px;
+    font-size: .98rem;
+    padding: 10px 16px;
+  }
 }
 
 @media (max-width: 520px) {
+  .rr-signin-top {
+    right: 8px;
+    top: 8px;
+    padding: 9px 12px;
+    font-size: .94rem;
+  }
   .rr-home-content > div {
     padding: 34px 4vw 30px 4vw !important;
     margin: 54px auto !important;
