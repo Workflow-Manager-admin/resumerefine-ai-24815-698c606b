@@ -1,4 +1,7 @@
-// PUBLIC_INTERFACE
+/**
+ * PUBLIC_INTERFACE
+ * ResumeToolPage: Branded background & optimized form overlay and cards for accessibility and responsiveness.
+ */
 import React, { useState } from 'react';
 import './ResumeToolPage.css';
 
