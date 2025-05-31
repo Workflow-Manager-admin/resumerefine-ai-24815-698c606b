@@ -1,3 +1,33 @@
+/* Full-page, modern, subtle tech image + dark overlay, highly readable */
+.rr-resume-bg {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* Professional abstract tech/office Unsplash image with dark overlay for contrast */
+  background:
+    linear-gradient(112deg, rgba(26,35,126,0.82) 62%, rgba(255,111,0,0.13) 140%),
+    url('https://images.unsplash.com/photo-1465101178521-c8cddf64cfd6?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+  padding-top: 90px;
+}
+
+/* On mobile, stretch and soften overlay */
+@media (max-width: 700px) {
+  .rr-resume-bg {
+    padding-top: 55px;
+    min-height: 101vh;
+    background:
+      linear-gradient(110deg, rgba(26,35,126,0.93) 66%, rgba(255,111,0,0.22) 150%),
+      url('https://images.unsplash.com/photo-1465101178521-c8cddf64cfd6?auto=format&fit=crop&w=900&q=60') center/cover no-repeat;
+    background-attachment: scroll;
+  }
+}
+
 input, select {
   outline: none;
   font-family: inherit;
@@ -22,3 +52,4 @@ input:focus, select:focus {
     padding-right: 6px !important;
   }
 }
+
