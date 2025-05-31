@@ -1,0 +1,24 @@
+input, select {
+  outline: none;
+  font-family: inherit;
+  transition: border 0.21s;
+}
+input:focus, select:focus {
+  border-color: var(--primary-color, #1A237E);
+}
+::-webkit-file-upload-button {
+  background: var(--primary-color, #1A237E);
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  .container {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+}

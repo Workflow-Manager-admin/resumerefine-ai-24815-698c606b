@@ -1,0 +1,21 @@
+.rr-home-bg {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.rr-home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+@media (max-width: 520px) {
+  .rr-home-content > div {
+    padding: 34px 4vw 30px 4vw !important;
+    margin: 54px auto !important;
+  }
+}
