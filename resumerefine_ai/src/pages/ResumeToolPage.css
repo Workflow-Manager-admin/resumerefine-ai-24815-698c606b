@@ -9,8 +9,8 @@
   justify-content: flex-start;
   /* Unique, generated tech/career-themed branded background with high-contrast overlay for readability */
   background:
-    linear-gradient(112deg, rgba(26,35,126,0.82) 62%, rgba(255,111,0,0.13) 140%),
-    url('../assets/rrai-resume-bg1.png') center/cover no-repeat;
+    linear-gradient(112deg, rgba(26,35,126,0.84) 62%, rgba(255,111,0,0.12) 140%),
+    url('../assets/rrai-resume-bg2.png') center/cover no-repeat;
   background-attachment: fixed;
   z-index: 0;
   padding-top: 90px;
