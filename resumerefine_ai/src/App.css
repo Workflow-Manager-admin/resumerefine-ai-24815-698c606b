@@ -1,9 +1,18 @@
 :root {
+  --primary-color: #1A237E;
+  --secondary-color: #F5F5F5;
+  --accent-color: #FF6F00;
+
   --kavia-orange: #E87A41;
   --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --text-color: #222245;
+  --text-secondary: #606480;
+  --border-color: rgba(26, 35, 126, 0.13);
+}
+
+.light-theme {
+  background: var(--secondary-color);
+  color: var(--text-color);
 }
 
 body {
