@@ -57,17 +57,10 @@ const ResumeToolPage = () => {
     <section className="rr-resume-bg">
       <div className="container" style={{ maxWidth: 520 }}>
         <form
+          className="rr-resume-card-form"
           onSubmit={handleSubmit}
-          style={{
-            background: '#fff',
-            borderRadius: 12,
-            boxShadow: '0 6px 36px rgba(26,35,126,0.09)',
-            padding: "36px 26px 30px",
-            marginBottom: 28,
-            marginTop: 108
-          }}
         >
-          <h3 style={{ color: 'var(--primary-color, #1A237E)', marginBottom: 18, fontWeight: 700 }}>Resume Analysis</h3>
+          <h3 className="rr-resume-form-title">Resume Analysis</h3>
           <label style={{ fontWeight: 500, fontSize: 15, display: "block", marginBottom: 6 }}>
             Name
             <input
