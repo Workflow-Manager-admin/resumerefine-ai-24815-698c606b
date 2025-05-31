@@ -1,3 +1,44 @@
+.rr-signin-bg {
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Layered background: subtle dark overlay over tech/city/AI image */
+  background:
+    linear-gradient(112deg, rgba(26,35,126,0.83) 59%, rgba(255,111,0,0.17) 130%),
+    url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+}
+
+/* Card-style form: paper look, high contrast, subtle blur, responsive */
+.rr-signin-form {
+  background: rgba(255,255,255,0.99);
+  border-radius: 16px;
+  box-shadow: 0 10px 38px rgba(30,37,99,0.15), 0 1.5px 8px rgba(26,35,126,0.09);
+  padding: 48px 36px 36px;
+  margin: 96px auto 32px auto;
+  min-width: 285px;
+  max-width: 370px;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  border: 1.5px solid rgba(26,35,126,0.06);
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .rr-signin-form {
+    padding: 30px 8vw 25px 8vw;
+    margin: 68px auto 10px auto;
+    min-width: unset;
+    max-width: 97vw;
+  }
+}
+
 input[type="email"], 
 input[type="password"] {
   outline: none;
