@@ -1,5 +1,10 @@
+// PUBLIC_INTERFACE
 import React, { useState } from 'react';
 import './ResumeToolPage.css';
+
+// Unsplash full-res, professional, modern, subtle tech abstract (free to use):
+// https://images.unsplash.com/photo-1465101178521-c8cddf64cfd6?auto=format&fit=crop&w=1600&q=80
+// License: Unsplash, free for commercial, no attribution
 
 // PUBLIC_INTERFACE
 const ResumeToolPage = () => {
